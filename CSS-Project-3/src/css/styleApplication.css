@@ -1,0 +1,83 @@
+#main{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 13px;
+}
+#main #left div{
+    float: left;
+    border-top: solid 3px rgb(223, 223, 223);
+    border-bottom: solid 3px rgb(223, 223, 223);
+    margin-left: 120px;
+    margin-right: 80px;
+}
+#left{
+    height: 410px;
+    background-color: rgb(244, 244, 244);
+    float: left;
+    width: 65%;
+ }
+#left div{
+    background-color: rgb(230, 230, 230);
+    margin: 2px;
+    padding: 10px 15px;
+}
+#left div h1{
+    font-size: 1em;
+}
+#left div p{
+    font-weight: bold;
+    font-size: 0.85em;
+}
+#right {
+    background-color: rgb(244, 244, 244);
+    color: white;
+    float: right;
+    height: 410px;
+    width: 35%;
+}
+#right #contactUs{
+    height: 255px;
+    margin-left: 0px;
+    margin-top: -12px;
+}
+#right #contactUs h1{
+    padding-left: 10px;
+    padding-top: 28px;
+    font-size: 1.0em;
+    margin-bottom: 30px;
+}
+#contactUs{
+    background-color: rgb(53, 66, 74);
+    height: 400px;
+    max-width: 300px;
+    margin-left: 20px;
+}
+#right #contactUs form{
+    margin-left: 10px;
+}
+#right #contactUs label{
+    font-size: 13px;
+}
+#right #contactUs input{
+    height: 15px;
+    width: 252px;
+
+
+}
+#right #contactUs input,label,textarea{
+    display: block;
+    margin-top: -23px;
+}
+#right #contactUs span{
+    display: block;
+    margin-top: 2px;
+}
+#right #contactUs #submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 50px;
+    background-color: rgb(236, 72, 27);
+    color: white;
+    font-size: 0.75em;
+}
